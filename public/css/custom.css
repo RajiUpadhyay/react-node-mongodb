@@ -1,0 +1,82 @@
+/** Your theme modifications here **/
+.yamm .dropdown:hover > ul.dropdown-menu {display: block;}
+#content #checkout .nav li a.active, .nav-pills > li > a.active {background-color: #4fbfa8!important;color: #fff!important;}
+.navlink-active {background-color: #4fbfa8!important;color: #FFFFFF!important;}
+.clear { clear: both; overflow: hidden; width: 100%; }
+.float-left { float: left!important; }
+.float-right { float: left!important; }
+.remove-padding { padding: 0px!important; }
+.remove-padding-left { padding-left: 0px!important; }
+
+/***********DASHBOARD*************/
+.dashboard-container {
+    background-color: #fff;padding: 20px; margin-bottom: 30px; border: 1px solid #f1f1f1; box-shadow: 2px 2px 13px #ccc;
+}
+.dashboard-links li { width: auto; }
+.text-center {text-align: left; padding: 0px;}
+.checkobox-group-boxes {padding: 0 10px; border: 1px solid #e1e1e1; height: 170px; overflow-y: scroll; margin: 0px;}
+.empty-list-message {color: red; height: 100%; line-height: 166px; text-align: center; display: block; }
+.addinto-db-button { margin: 20px 0 0px 0; }
+.upload-thumb-images  { position: relative; padding: 0px; }
+.add-thumb-images {position: absolute;right: -86px;bottom: 10px;padding: 10px;z-index: 100;}
+.upload-image-box button {margin-right: 10px;}
+.upload-images { margin-top: 20px; }
+.dashboard-container .dashboard-content { border-top: 1px solid #4fbfa8; }
+.dashboard-links li a.active { border-radius: 10px 10px 0px 0px; }
+.table-responsive { overflow: auto;}
+
+/***********LOGIN*************/
+
+/***********REGISTER*************/
+.create-user .form-group {margin-bottom: 20px; display: block; float: left; width: 100%; }
+
+
+/***********HOMEPAGE*************/
+
+/***********CATEGORY*************/
+.category-sidebar-menu { min-height: 300px; text-transform: capitalize; }
+.product-type-active a { background: #eeeeee; }
+.sidebar-brand-filter input, .sidebar-color-filter input { margin: 0px; }
+.category-image-front, .category-image-back { text-align: center; height: 320px; border: none; }
+.category-image-front img, .category-image-back img {text-align: center; margin: 10px auto; max-height: 300px; border: none; padding: 0px;}
+.flip-container .flipper .category-image-front, .flip-container .flipper .category-image-back {height: 300px;}
+
+/***********PRODUCT*************/
+#content .product .text h3 { margin: 0px; }
+#content #productMain #mainImage { height: 480px; padding: 20px 0; background: #fff; }
+#content #productMain #mainImage img { height: 435px; width: auto; text-align: center; margin: 0 auto; padding: 0px; }
+
+
+/***********CART*************/
+
+/***********CHECKOUT*************/
+
+/***********MYACCOUNT*************/
+
+#content #productMain h1 { font-size: 24px; text-transform: capitalize; margin-top: 0px; margin-bottom: 10px;}
+#content #productMain .price { text-align: left; font-size: 13px; margin: 15px 0; font-weight: bold;}
+#content #productMain .price span { color: green; }
+#content #productMain .price.original-price span { color: #999999; text-decoration: line-through; font-size: 14px; font-weight: normal;}
+#content #productMain .price.money-saving span { font-size: 14px; color: red; font-weight: normal;}
+#content #thumbs a { max-height: 100px; padding: 10px 0; overflow: hidden; background: #fff;}
+#content #thumbs a img { height: 80px; width: auto; margin: 0 auto; padding: 0px;}
+
+.scroll-container { max-height: 150px; overflow-y: auto; text-transform: capitalize;}
+
+.collapse-sub-menu .product-type { display: none; }
+.extend-sub-menu .product-type { display: block; }
+
+.view-list { margin-left: 20px; }
+
+/***********RATING AND REVIEW*************/
+.btn-grey{background-color:#D8D8D8; color:#FFF;}
+.rating-block{ background-color:#FAFAFA; border:1px solid #EFEFEF; padding:15px 15px 20px 15px; border-radius:3px; }
+.bold{ font-weight:700; }
+.padding-bottom-7{ padding-bottom:7px; }
+.review-block{ background-color:#FAFAFA; border:1px solid #EFEFEF; padding:15px; border-radius:3px; margin-bottom:15px;}
+.review-block-name{font-size:12px;margin:10px 0;}
+.review-block-date{font-size:12px;}
+.review-block-rate{font-size:13px;margin-bottom:15px;}
+.review-block-title{font-size:15px;font-weight:700;margin-bottom:10px;}
+.review-block-description{font-size:13px;}
+.inline-style-1 {width:35px; line-height:1;}
